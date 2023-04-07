@@ -3,16 +3,20 @@
 ## how to run them 
 * ###  for only lex pro
 
+```
+flex f.l  
+gcc lex.yy.c 
+./a.out 
 
-/>flex f.l 
-/>gcc lex.yy.c
+```
 
-* # for lex and yacc pro 
-
+* ### for lex and yacc pro 
+```
 bison -y -d f.y
 flex f.l
 gcc lex.yy.c y.tab.c
 ./ a.out or a.exe
+```
 ---------------
 ###### some lex and yacc examples 
 for lex 
