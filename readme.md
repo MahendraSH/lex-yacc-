@@ -8,6 +8,7 @@
 />gcc lex.yy.c
 
 * # for lex and yacc pro 
+
 bison -y -d f.y
 flex f.l
 gcc lex.yy.c y.tab.c
